@@ -60,7 +60,7 @@ def neg(a: float) -> float:
         Negative of a
 
     """
-    return -a
+    return float(-a)
 
 
 def id(a: float) -> float:
@@ -108,6 +108,21 @@ def lt(a: float, b: float) -> bool:
 
     """
     return a < b
+
+def gt(a: float, b: float) -> bool:
+    """Greater than.
+
+        Args:
+        ----
+            a: A float
+            b: A float
+
+        Returns:
+        -------
+            True if a is more than b, False otherwise
+
+        """
+    return a > b
 
 
 def eq(a: float, b: float) -> bool:
@@ -266,7 +281,7 @@ def relu(x: float) -> float:
 
     """
     if x <= 0:
-        return 0
+        return 0.0
     return x
 
 
