@@ -1,0 +1,29 @@
+[project]
+name = "minitorch-module-1-tristanrussell2000"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "altair<5",
+    "colorama==0.4.3",
+    "datasets==2.4.0",
+    "embeddings==0.0.8",
+    "hypothesis==6.54",
+    "mypy==0.971",
+    "networkx==2.4",
+    "numba==0.60",
+    "numpy==2.0.0",
+    "plotly==4.14.3",
+    "pre-commit==2.20.0",
+    "pydot==1.4.1",
+    "pytest==8.3.2",
+    "pytest-env>=1.1.4",
+    "pytest-runner==5.2",
+    "python-mnist>=0.7",
+    "streamlit==1.12.0",
+    "streamlit-ace>=0.1.1",
+    "torch>=2.7.1",
+    "typing-extensions>=4.14.1",
+    "watchdog==1.0.2",
+]
