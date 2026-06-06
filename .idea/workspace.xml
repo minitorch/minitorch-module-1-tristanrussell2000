@@ -43,10 +43,10 @@
 }]]></component>
   <component name="RecapSpentCounter">
     <option name="endsOfQuotaMs" value="1781496139853" />
-    <option name="spentUsd" value="0.0129955495" />
+    <option name="spentUsd" value="0.0375653" />
   </component>
   <component name="RecapUselessUpdatesCounter">
-    <option name="suspendCountdown" value="5" />
+    <option name="suspendCountdown" value="3" />
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
