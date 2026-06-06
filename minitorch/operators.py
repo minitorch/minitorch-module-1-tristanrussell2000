@@ -55,6 +55,9 @@ def inv(x: float) -> float:
 def exp(x: float) -> float:
     return math.exp(x)
 
+def log(x: float) -> float:
+    return math.log(x)
+
 def inv_back(x: float, y: float) -> float:
     return -y  / (x * x)
 
@@ -104,7 +107,7 @@ def map(l: Iterable[float], f: Callable[[float], T]) -> Iterable[T]:
 def zipWith(l1: Iterable[T], l2: Iterable[T2], f: Callable[[T, T2], T3]) -> Iterable[T3]:
     return [f(x, y) for x, y in zip(l1, l2)]
 
-def reduce(l: Iterable[T], f: Callable[[T, T2], T2], init: T2) -> T:
+def reduce(l: Iterable[T], f: Callable[[T2, T], T2], init: T2) -> T2:
     for x in l:
         init = f(init, x)
     return init

@@ -125,12 +125,10 @@ class Scalar:
         return Exp.apply(self)
 
     def sigmoid(self) -> Scalar:
-        # TODO: Implement for Task 1.2.
-        raise NotImplementedError("Need to implement for Task 1.2")
+        return Sigmoid.apply(self)
 
     def relu(self) -> Scalar:
-        # TODO: Implement for Task 1.2.
-        raise NotImplementedError("Need to implement for Task 1.2")
+        return ReLU.apply(self)
 
     # Variable elements for backprop
 
