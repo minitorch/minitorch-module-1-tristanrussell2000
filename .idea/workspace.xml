@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b48714d3-066e-4bfa-b222-6d4cb71236ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/minitorch-module-1-tristanrussell2000.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b48714d3-066e-4bfa-b222-6d4cb71236ce" name="Changes" comment="Task 1.4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minitorch/autodiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/minitorch/autodiff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minitorch/scalar_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/minitorch/scalar_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/run_scalar.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/run_scalar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +69,22 @@
       <option name="presentableId" value="Default" />
       <updated>1780692933287</updated>
     </task>
+    <task id="LOCAL-00001" summary="Task 1.4">
+      <option name="closed" value="true" />
+      <created>1780795518529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780795518529</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="pyproject.toml" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task 1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1.4" />
   </component>
 </project>
